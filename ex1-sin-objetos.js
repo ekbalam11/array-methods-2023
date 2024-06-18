@@ -9,6 +9,9 @@ const numbers = [-5, -3, -1, 1, 3, 5, 7, 9, 11, 13, 15, 17, 19];
 /**
  * Utiliza la método forEach para mostrar cada número por consola
  */
+const numbersForEach = numbers.forEach(n => 
+console.log("Numbers for Each: ", n));
+
 
 /**
  * Utiliza el método find para encontrar el primer número mayor de 10
